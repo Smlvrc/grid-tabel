@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.container{
+    width: 100%;
+    height: 800px;
+    background-color: aquamarine;
+    display: grid;
+  grid-template-columns: 1fr 2fr 0.5fr;
+
+    
+}
+
+
+.first{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    border: 1px solid black;
+   
+}
+.first .nom{
+    display: grid;
+    grid-template-rows: 2fr repeat(10, 0.5fr);
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 100%;
+}
+
+
+
+.first .name{
+    display: grid;
+    grid-template-rows: 2fr repeat(10, 0.5fr);
+    align-items: center;
+
+  
+}
+.name-item{
+    border-bottom: 1px solid black;
+     height: 100%;
+     display: flex;
+     align-items: center;
+}
+
+.second{
+    display: grid;
+    grid-template-rows: 1fr 0.5fr  auto ;
+    align-items: center;
+    border: 1px solid black;
+
+}
+.second .second-item{
+    display: flex;
+    justify-content: center;
+    border: none;
+    align-items: center;
+    height: 100%;
+    border-bottom: 1px solid black;
+}
+
+.imzalar{
+    display: grid;
+    gap: 35px;
+    align-items: center;
+   
+   
+}
+.ay{
+    display: grid;
+    grid-template-columns: 1fr repeat(31, 2fr);
+    row-gap: 3px;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.ay .ay-item{
+    align-content: center;  
+    margin: 1px;
+ height: 100%;
+
+ transform: rotate(270deg);
+
+
+
+}
+.second .sign{
+    display: grid;
+grid-template-columns: 1fr repeat(31, 2fr);
+ row-gap: 10px;
+ column-gap: 10px;
+
+}
+.sign-item{
+    height: 100%;
+ border: 1px solid black;
+
+
+}
+
+.third {
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows:150px 50px;
+    align-items: center;
+    row-gap: 20px;
+}
+.third-item{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    justify-content: center;
+
+    
+}
+.third .common{
+    display: flex;
+    border: none;
+   border-bottom: 1px solid black;
+   margin-top: 4px;
+  
+}
+.common .one{
+    border-right: 1px solid black;
+}
